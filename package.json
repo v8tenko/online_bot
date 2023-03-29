@@ -1,0 +1,22 @@
+{
+  "name": "is_online_bot",
+  "version": "1.0.0",
+  "description": "Telegram is private user online",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "ts-node index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "v8tenko",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.15.11",
+    "pnpm": "^8.0.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.2"
+  },
+  "dependencies": {
+    "puppeteer": "^19.8.1"
+  }
+}
